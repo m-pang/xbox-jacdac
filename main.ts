@@ -1,3 +1,7 @@
+modules.button1.onEvent(jacdac.ButtonEvent.Down, function () {
+    serial.writeString("B")
+    basic.showString("B")
+})
 input.onButtonPressed(Button.A, function () {
     serial.writeString("A")
     basic.showString("A")

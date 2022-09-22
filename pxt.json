@@ -6,7 +6,8 @@
         "radio": "*",
         "microphone": "*",
         "jacdac": "github:microsoft/pxt-jacdac#v1.8.35",
-        "jacdac-hid-joystick": "github:microsoft/pxt-jacdac/hid-joystick"
+        "jacdac-hid-joystick": "github:microsoft/pxt-jacdac/hid-joystick",
+        "jacdac-button": "github:microsoft/pxt-jacdac/button#v1.8.35"
     },
     "files": [
         "main.blocks",
