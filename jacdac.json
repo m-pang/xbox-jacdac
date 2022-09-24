@@ -7,6 +7,18 @@
         {
             "name": "potentiometer3",
             "service": 522667846
+        },
+        {
+            "name": "button3",
+            "service": 343122531
+        },
+        {
+            "name": "button4",
+            "service": 343122531
+        },
+        {
+            "name": "button5",
+            "service": 343122531
         }
     ]
 }
