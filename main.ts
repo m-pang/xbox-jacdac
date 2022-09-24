@@ -20,7 +20,7 @@ modules.flex1.onBendingChangedBy(10, function () {
     if (Mode) {
         serial.writeString("d")
     } else {
-    	
+        serial.writeString("A")
     }
 })
 myModules.button3.onEvent(jacdac.ButtonEvent.Down, function () {
@@ -47,7 +47,7 @@ input.onButtonPressed(Button.B, function () {
 })
 modules.button2.onEvent(jacdac.ButtonEvent.Down, function () {
     if (Mode > 0) {
-        serial.writeString("e")
+        serial.writeString("d")
     } else {
         serial.writeString("D")
     }
