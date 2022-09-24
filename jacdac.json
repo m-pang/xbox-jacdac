@@ -1,3 +1,12 @@
 {
-    "roles": []
+    "roles": [
+        {
+            "name": "flex3",
+            "service": 524797638
+        },
+        {
+            "name": "potentiometer3",
+            "service": 522667846
+        }
+    ]
 }
