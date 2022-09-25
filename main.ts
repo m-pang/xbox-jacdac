@@ -1,6 +1,6 @@
 myModules.button5.onEvent(jacdac.ButtonEvent.Down, function () {
     if (Mode > 0) {
-        serial.writeString("g")
+        serial.writeString("s")
     } else {
         serial.writeString("R")
     }
@@ -11,14 +11,14 @@ modules.potentiometer2.onPositionChangedBy(50, function () {
 })
 modules.button1.onEvent(jacdac.ButtonEvent.Down, function () {
     if (Mode) {
-        serial.writeString("c")
+        serial.writeString("t")
     } else {
         serial.writeString("U")
     }
 })
 modules.flex1.onBendingChangedBy(10, function () {
     if (Mode) {
-        serial.writeString("d")
+        serial.writeString("E")
     } else {
         serial.writeString("A")
     }
@@ -33,9 +33,16 @@ input.onButtonPressed(Button.A, function () {
         serial.writeString("a")
     }
 })
+myModules.button5.onEvent(jacdac.ButtonEvent.Hold, function () {
+    if (Mode > 0) {
+        serial.writeString("S")
+    } else {
+        serial.writeString("R")
+    }
+})
 myModules.button4.onEvent(jacdac.ButtonEvent.Down, function () {
     if (Mode > 0) {
-        serial.writeString("f")
+        serial.writeString("i")
     } else {
         serial.writeString("L")
     }
@@ -47,7 +54,7 @@ input.onButtonPressed(Button.B, function () {
 })
 modules.button2.onEvent(jacdac.ButtonEvent.Down, function () {
     if (Mode > 0) {
-        serial.writeString("d")
+        serial.writeString("r")
     } else {
         serial.writeString("D")
     }
